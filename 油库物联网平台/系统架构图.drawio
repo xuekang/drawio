@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T12:39:55.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="UOlF5J6GTMwG6U9VNYUw" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-02T12:45:20.018Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="qbDX8uYKevO3LQ6X3VPA" version="22.1.5" type="github">
   <diagram name="第 1 页" id="EkqY67IivwFaYnUYwmcU">
     <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,24 +9,6 @@
         </mxCell>
         <mxCell id="HulfjDVC19slFgslQtup-2" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;访问层&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="95" width="30" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="HulfjDVC19slFgslQtup-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_blank" vertex="1" parent="1">
-          <mxGeometry x="827" y="105" width="77.91" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="HulfjDVC19slFgslQtup-4" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
-          <mxGeometry x="1080" y="95" width="52.2" height="87" as="geometry" />
-        </mxCell>
-        <mxCell id="HulfjDVC19slFgslQtup-5" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.direct_access_feature" vertex="1" parent="1">
-          <mxGeometry x="520" y="105" width="79.55" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HulfjDVC19slFgslQtup-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;PC&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="599.55" y="125" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HulfjDVC19slFgslQtup-7" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;大屏&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="904.91" y="123.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HulfjDVC19slFgslQtup-8" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;移动端&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="123.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HulfjDVC19slFgslQtup-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d2e8f3;fontColor=#ffffff;strokeColor=#b6e1f7;fillStyle=solid;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="260" width="1430" height="910" as="geometry" />
@@ -246,6 +228,78 @@
         </mxCell>
         <mxCell id="HulfjDVC19slFgslQtup-136" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;工作流程引擎&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-130">
           <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-137" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1330" y="100" width="120" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-4" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="HulfjDVC19slFgslQtup-137">
+          <mxGeometry width="52.2" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-8" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;移动端&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HulfjDVC19slFgslQtup-137">
+          <mxGeometry x="60" y="28.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-138" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="940" y="105" width="137.90999999999997" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_blank" vertex="1" parent="HulfjDVC19slFgslQtup-138">
+          <mxGeometry width="77.91" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-7" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;大屏&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HulfjDVC19slFgslQtup-138">
+          <mxGeometry x="77.90999999999997" y="18.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-139" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="590" y="105" width="139.54999999999995" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-5" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.direct_access_feature" vertex="1" parent="HulfjDVC19slFgslQtup-139">
+          <mxGeometry width="79.55" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;PC&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HulfjDVC19slFgslQtup-139">
+          <mxGeometry x="79.54999999999995" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-140" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d2e8f3;fontColor=#ffffff;strokeColor=#b6e1f7;fillStyle=solid;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1700" width="1430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-141" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;存储层&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1740" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-142" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;RDS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1760" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-145" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Redis&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1760" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-146" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;OSS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1760" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-147" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ELasticsearch&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1760" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-148" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;HDFS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="935" y="1760" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-149" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;DRDS&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="1077.91" y="1760" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-150" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Hive&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1760" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-151" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Hbase&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1760" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-153" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d2e8f3;fontColor=#ffffff;strokeColor=#b6e1f7;fillStyle=solid;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="272.45" y="1900" width="1430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-154" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;基础设施层&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1940" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-155" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;网络资源层&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1965" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-156" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;计算资源&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="774.55" y="1965" width="260.45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-157" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;存储资源&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1965" width="260.45" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
