@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T12:01:47.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="GsMuPwWpQsNshQk9JMsn" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-02T12:39:55.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="UOlF5J6GTMwG6U9VNYUw" version="22.1.5" type="github">
   <diagram name="第 1 页" id="EkqY67IivwFaYnUYwmcU">
     <mxGraphModel dx="2066" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HulfjDVC19slFgslQtup-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d2e8f3;fontColor=#ffffff;strokeColor=#b6e1f7;fillStyle=solid;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="61" width="1390" height="159" as="geometry" />
+          <mxGeometry x="270" y="61" width="1420" height="159" as="geometry" />
         </mxCell>
         <mxCell id="HulfjDVC19slFgslQtup-2" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;访问层&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="95" width="30" height="90" as="geometry" />
@@ -29,13 +29,223 @@
           <mxGeometry x="1140" y="123.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HulfjDVC19slFgslQtup-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d2e8f3;fontColor=#ffffff;strokeColor=#b6e1f7;fillStyle=solid;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="260" width="1430" height="390" as="geometry" />
+          <mxGeometry x="270" y="260" width="1430" height="910" as="geometry" />
         </mxCell>
         <mxCell id="HulfjDVC19slFgslQtup-10" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;应用层&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="410" width="30" height="90" as="geometry" />
+          <mxGeometry x="290" y="600" width="30" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="HulfjDVC19slFgslQtup-11" value="Container" style="swimlane;fillColor=#8bd8f9;" vertex="1" parent="1">
-          <mxGeometry x="440" y="320" width="340" height="170" as="geometry" />
+        <mxCell id="HulfjDVC19slFgslQtup-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="414" y="300" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-11" value="油罐储油自动测量感知控制子系统数据集成" style="swimlane;fillColor=#69D0F2;fontSize=16;" vertex="1" parent="HulfjDVC19slFgslQtup-20">
+          <mxGeometry width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-12" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;油罐储量监测&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-11">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-17" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;温度监测&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-11">
+          <mxGeometry x="20" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-18" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;异常报警&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-11">
+          <mxGeometry x="200" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-19" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;远程报警处理&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-11">
+          <mxGeometry x="380" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-15" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;油品分类&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-11">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-16" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;数量统计&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-11">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1010" y="300" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-36" value="铁路油料自动收发感知控制子系统数据集成" style="swimlane;fillColor=#69D0F2;fontSize=16;" vertex="1" parent="HulfjDVC19slFgslQtup-35">
+          <mxGeometry width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-37" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;实时位置追踪&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-36">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-41" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;运输进度报告&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-36">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-42" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;异常情况监测&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-36">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-51" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="414" y="520" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-52" value="汽车零发油自动灌装感知控制子系统数据集成" style="swimlane;fillColor=#69D0F2;fontSize=16;" vertex="1" parent="HulfjDVC19slFgslQtup-51">
+          <mxGeometry width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-53" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;实时灌装监测&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-52">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-57" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;液位感知&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-52">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-58" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;异常检测&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-52">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-59" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1010" y="520" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-60" value="消防报警子系统集成" style="swimlane;fillColor=#69D0F2;fontSize=16;" vertex="1" parent="HulfjDVC19slFgslQtup-59">
+          <mxGeometry width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-61" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;实时监控及报警&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-60">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-65" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;设置探测点&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-60">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-66" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;人工报警开关响应功能&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-60">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-67" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="414" y="730" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-68" value="查库巡检管理子系统数据集成" style="swimlane;fillColor=#69D0F2;fontSize=16;" vertex="1" parent="HulfjDVC19slFgslQtup-67">
+          <mxGeometry width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-69" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;查库计划制定&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-68">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-73" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;库区划分&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-68">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-74" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;查库记录&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-68">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-75" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1010" y="730" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-76" value="门禁管理子系统数据集成" style="swimlane;fillColor=#69D0F2;fontSize=16;" vertex="1" parent="HulfjDVC19slFgslQtup-75">
+          <mxGeometry width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-77" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;门禁权限设置&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-76">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-78" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;门禁设备管理&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-76">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-79" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;访客管理&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-76">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-80" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="414" y="950" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-81" value="钥匙柜管理子系统数据集成" style="swimlane;fillColor=#69D0F2;fontSize=16;" vertex="1" parent="HulfjDVC19slFgslQtup-80">
+          <mxGeometry width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-82" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;钥匙柜分配&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-81">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-83" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;操作记录采集&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-81">
+          <mxGeometry x="20" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-84" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;实时状态监测&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-81">
+          <mxGeometry x="200" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-85" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;异常检测&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-81">
+          <mxGeometry x="380" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-86" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;权限设置&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-81">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-87" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;维护管理&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-81">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-88" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1003" y="950" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-89" value="周界防范管理子系统数据集成" style="swimlane;fillColor=#69D0F2;fontSize=16;" vertex="1" parent="HulfjDVC19slFgslQtup-88">
+          <mxGeometry width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-90" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;监控摄像头布局&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-89">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-94" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;围墙状态监测&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-89">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-95" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;入侵检测&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-89">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-110" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d2e8f3;fontColor=#ffffff;strokeColor=#b6e1f7;fillStyle=solid;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1190" width="1430" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-111" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;服务层&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1360" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-112" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="404.91" y="1270" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-113" value="业务服务" style="swimlane;fillColor=#69D0F2;fontSize=16;startSize=23;" vertex="1" parent="HulfjDVC19slFgslQtup-112">
+          <mxGeometry width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-114" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;用户服务&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-113">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-115" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;文件资源服务&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-113">
+          <mxGeometry x="20" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-116" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;场景识别服务&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-113">
+          <mxGeometry x="200" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-117" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;异常检测服务&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-113">
+          <mxGeometry x="380" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-118" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;权限服务&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-113">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-119" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;GIS服务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-113">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-121" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1010" y="1270" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-122" value="数据服务" style="swimlane;fillColor=#69D0F2;fontSize=16;startSize=23;" vertex="1" parent="HulfjDVC19slFgslQtup-121">
+          <mxGeometry width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-123" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;数据感知与收集&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-122">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-124" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;数据挖掘&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-122">
+          <mxGeometry x="20" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-125" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;数据分析服务&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-122">
+          <mxGeometry x="200" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-126" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;数据展示服务&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-122">
+          <mxGeometry x="380" y="110" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-127" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;数据清洗&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-122">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-128" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;数据建模&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-122">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-130" value="技术服务" style="swimlane;fillColor=#69D0F2;fontSize=16;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="404.91" y="1480" width="1165.09" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-131" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;统一身份认证&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-130">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-132" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;消息服务&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-130">
+          <mxGeometry x="576.09" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-133" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;系统日志服务&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-130">
+          <mxGeometry x="756.09" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-134" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;搜索服务&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-130">
+          <mxGeometry x="936.09" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-135" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;规则引擎&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-130">
+          <mxGeometry x="200" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HulfjDVC19slFgslQtup-136" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;工作流程引擎&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69d0f2;" vertex="1" parent="HulfjDVC19slFgslQtup-130">
+          <mxGeometry x="380" y="50" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
